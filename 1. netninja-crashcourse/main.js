@@ -49,7 +49,7 @@ app.get("/about-us", (req, res) => {
 app.use("/blogs", blogRoutes);
 
 app.use((req, res) => {
-	res.status(404).sendFile("./views/404.html", { root: __dirname });
+	res.status(404).render("404.ejs", { title: "Not Found" });
 });
 
 // Opens the server by listening to the port
