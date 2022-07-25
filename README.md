@@ -1,3 +1,3 @@
 # practice-node-courses
 
-repository for my node.js practice sessions
+Just a repository for node.js projects from online courses that I have completed.
